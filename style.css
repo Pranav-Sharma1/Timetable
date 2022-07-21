@@ -1,0 +1,54 @@
+body{
+  font-family: Trebuchet MS;
+  margin:20px;
+  background-color: #600040;
+}
+
+h1{
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#myTimetable{
+  width:100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+#thead{
+  color: #FFFFFF;
+}
+
+#tbody{
+  background-color: #AAAAFF;
+}
+
+td{
+  border: 1px solid black;
+  padding: 6px;
+  text-align: center;
+}
+#myTimetable tbody tr td:first-child{
+  background-color: #FF0066;
+  font-weight: bold;
+}
+
+#break{
+  background-color: #FF0066 !important;
+  font-style: italic;
+}
+
+#lunch{
+  background-color: #FF0066 !important;
+  font-style: italic;
+}
+
+#subject{
+  font-size: 12pt;
+  margin-bottom:4px;
+}
+
+#room{
+  font-size: 10pt;
+  font-style: italic;
+}
